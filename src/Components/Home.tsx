@@ -42,12 +42,12 @@ const Home = () => {
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.6, delay: 0.2 }}
-        className="flex justify-center w-full md:w-1/2 mb-6 md:mb-0"
+        className="flex justify-center w-full md:w-1/2 mt-15 md:mb-0"
       >
         <img
           src={heroImage}
           alt="Abdul Rehman"
-          className="w-60 h-auto mt:10 max-h-80 md:w-80 md:h-80 object-cover rounded-full border-4 border-white shadow-lg"
+          className="w-60 h-auto  max-h-80 md:w-80 md:h-80 object-cover rounded-full border-4 border-white shadow-lg"
         />
       </motion.div>
     </section>

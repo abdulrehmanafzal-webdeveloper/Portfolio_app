@@ -18,7 +18,7 @@ const allProjects = [
     title: "News App",
     description: "A news app made using React, Tailwind and Bootstrap",
     image: news,
-    videoLink: "",
+    videoLink: "https://www.loom.com/share/9010d1a44f7c4b87b946e9224cb70aef?sid=8dd8c8a8-773f-420a-8c42-200741b3892c",
     codeLink: "https://github.com/abdulrehmanafzal-webdeveloper/News-app",
   }
 ];
@@ -48,7 +48,7 @@ const Projects = () => {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
-              className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300"
+              className="bg-white rounded-xl shadow-lg overflow-hidden object-contain  hover:shadow-2xl transition duration-300"
             >
               <img
                 src={project.image}
