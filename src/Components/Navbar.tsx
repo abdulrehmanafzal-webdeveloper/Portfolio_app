@@ -51,24 +51,48 @@ const Navbar = () => {
           } md:flex-row md:items-center text-xl md:w-auto gap-4`}
         >
           <Link
-  to="home"
-  spy={true}
-  smooth={true}
-  offset={-70}
-  duration={500}
-  className="text-white hover:text-yellow-300 transition duration-300 cursor-pointer"
->
-  Home
-</Link>
-          <a className="text-white hover:text-yellow-300 transition duration-300 cursor-pointer">
-            projects
-          </a>
-          <a className="text-white hover:text-yellow-300 transition duration-300 cursor-pointer">
-            skills
-          </a>
-          <a className="text-white hover:text-yellow-300 transition duration-300 cursor-pointer">
-            contact
-          </a>
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={700}
+            className="text-white hover:text-yellow-300 transition duration-300 cursor-pointer"
+          >
+            Home
+          </Link>
+          <Link
+            to="about"
+            smooth={true}
+            duration={700}
+            className="text-white hover:text-yellow-300 transition duration-300 cursor-pointer"
+          >
+            About
+          </Link>
+          <Link
+            to="projects"
+            smooth={true}
+            duration={700}
+            className="text-white hover:text-yellow-300 transition duration-300 cursor-pointer"
+          >
+            Projects
+          </Link>
+          <Link
+            to="skills"
+            smooth={true}
+            duration={700}
+            className="text-white hover:text-yellow-300 transition duration-300 cursor-pointer"
+          >
+            Skills
+          </Link>
+
+          <Link
+            to="contact"
+            smooth={true}
+            duration={700}
+            className="text-white hover:text-yellow-300 transition duration-300 cursor-pointer"
+          >
+            Contact
+          </Link>
         </div>
       </div>
     </motion.nav>

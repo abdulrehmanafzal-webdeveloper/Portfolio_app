@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-[90vh] flex flex-col-reverse md:flex-row justify-center items-center text-center md:text-left px-6 py-8 bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100 md:ml-15"
+      className="min-h-[90vh] flex flex-col-reverse md:flex-row justify-center items-center text-center md:text-left px-6 py-8 bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100 md:ml-20"
     >
       {/* Text Content */}
       <div className="md:w-1/2 mt-10 md:mt-0">
@@ -24,8 +24,8 @@ const Home = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mt-4 text-lg md:text-xl text-gray-600 max-w-xl"
         >
-          I’m a front-end developer passionate about building modern, beautiful
-          web apps using React, Tailwind & TypeScript.
+          I’m a creative Full stack developer passionate about building modern, beautiful
+          web apps using MERN stack, React, Tailwind & TypeScript.
         </motion.p>
 
         <motion.button
