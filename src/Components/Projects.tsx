@@ -4,6 +4,7 @@ import Tilt from "react-parallax-tilt";
 import { FaGithub, FaPlay } from "react-icons/fa";
 import note from "../assets/capture1.jpg";
 import news from "../assets/capture2.jpg";
+import cag from "../assets/cag.jpg";
 
 // All project data
 const allProjects = [
@@ -20,7 +21,15 @@ const allProjects = [
     image: news,
     videoLink: "https://www.loom.com/share/9010d1a44f7c4b87b946e9224cb70aef?sid=8dd8c8a8-773f-420a-8c42-200741b3892c",
     codeLink: "https://github.com/abdulrehmanafzal-webdeveloper/News-app",
-  }
+  },
+  {
+  title: "CAG API (FastAPI + AI)",
+  description: "A FastAPI-powered Conversational AI Gateway with endpoints to append, delete, query, and list AI-based user prompts. Includes UUID-based document storage and OpenAI integration for intelligent responses.",
+  image: cag, // replace this with your actual image import
+  videoLink: "https://www.loom.com/share/432c9ce894e0435eb1176306c2ded8de?sid=28e6d91a-8b73-4878-9886-168e52f95058", // replace with your actual Loom video
+  codeLink: "https://github.com/abdulrehmanafzal-webdeveloper/CAG-project", // adjust if repo URL is different
+}
+
 ];
 
 const Projects = () => {

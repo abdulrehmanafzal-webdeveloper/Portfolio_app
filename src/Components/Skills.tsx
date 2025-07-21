@@ -1,7 +1,14 @@
 // src/components/Skills.tsx
 import { motion } from "framer-motion";
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaPython } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiMysql } from "react-icons/si";
+import {
+  FaReact,
+  FaNodeJs,
+  FaHtml5,
+  FaCss3Alt,
+  FaPython,
+  FaGithub,
+} from "react-icons/fa";
+import { SiMongodb, SiExpress, SiMysql, SiTypescript, SiSharp } from "react-icons/si";
 
 const skills = [
   { name: "React", icon: <FaReact className="text-sky-500" /> },
@@ -12,6 +19,9 @@ const skills = [
   { name: "HTML", icon: <FaHtml5 className="text-orange-500" /> },
   { name: "CSS", icon: <FaCss3Alt className="text-blue-500" /> },
   { name: "Python", icon: <FaPython className="text-yellow-500" /> },
+  { name: "TypeScript", icon: <SiTypescript className="text-blue-700" /> },
+  { name: "GitHub", icon: <FaGithub className="text-gray-800" /> },
+  { name: "C#", icon: <SiSharp className="text-purple-700" /> },
 ];
 
 const Skills = () => {
@@ -65,6 +75,3 @@ const Skills = () => {
 };
 
 export default Skills;
-
-
-

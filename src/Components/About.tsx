@@ -22,7 +22,10 @@ const About = () => {
         transition={{ duration: 0.6, delay: 0.2 }}
         className="max-w-3xl text-lg md:text-xl text-gray-700"
       >
-        I'm a MERN stack developer with additional knowledge of MySQL and basic Python. I enjoy building full-stack web apps and continuously improving my skills.
+        I'm a MERN Stack & FastAPI developer with expertise in MongoDB, Express,
+        React, Node.js, and MySQL. I'm also exploring Machine Learning with
+        Python and enjoy building scalable full-stack web applications while
+        constantly expanding my technical skill set.
       </motion.p>
 
       <motion.ul

@@ -24,8 +24,9 @@ const Home = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mt-4 text-lg md:text-xl text-gray-600 max-w-xl"
         >
-          I’m a creative Full stack developer passionate about building modern, beautiful
-          web apps using MERN stack, React, Tailwind & TypeScript.
+          I’m a passionate MERN Stack & FastAPI Developer exploring Machine
+          Learning with Python. Proficient in building modern web apps using
+          MongoDB, Express, React, Node.js, TypeScript, Tailwind CSS, and MySQL.
         </motion.p>
 
         <motion.button
