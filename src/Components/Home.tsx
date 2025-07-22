@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import heroImage from "../assets/capture.jpg";
+import cv from "../assets/M_Abdul_Rehman_Resume.pdf";
 
 const Home = () => {
   return (
@@ -29,13 +30,26 @@ const Home = () => {
           MongoDB, Express, React, Node.js, TypeScript, Tailwind CSS, and MySQL.
         </motion.p>
 
-        <motion.button
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="mt-8 px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow-md hover:bg-indigo-700 transition duration-300"
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.5 }}
+          className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start"
         >
-          📂 View My Work
-        </motion.button>
+          <button
+            className="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow-md hover:bg-indigo-700 transition duration-300"
+          >
+            📂 View My Work
+          </button>
+
+          <a
+            href={cv} // ✅ Use imported PDF file here
+            download
+            className="px-6 py-3 bg-white text-indigo-600 font-semibold border border-indigo-600 rounded-xl shadow-md hover:bg-indigo-50 transition duration-300"
+          >
+            📄 Download CV
+          </a>
+        </motion.div>
       </div>
 
       {/* Profile Image */}
@@ -48,7 +62,7 @@ const Home = () => {
         <img
           src={heroImage}
           alt="Abdul Rehman"
-          className="w-60 h-auto  max-h-80 md:w-80 md:h-80 object-cover rounded-full border-4 border-white shadow-lg"
+          className="w-60 h-auto max-h-80 md:w-80 md:h-80 object-cover rounded-full border-4 border-white shadow-lg"
         />
       </motion.div>
     </section>
