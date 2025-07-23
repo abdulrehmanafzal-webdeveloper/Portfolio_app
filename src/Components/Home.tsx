@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import heroImage from "../assets/capture.jpg";
-import cv from "../assets/M_Abdul_Rehman_Resume.pdf";
+import cv from "../assets/Contact Information - Resume.pdf";
 
 const Home = () => {
   return (
