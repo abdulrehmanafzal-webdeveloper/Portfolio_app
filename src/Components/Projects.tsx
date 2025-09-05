@@ -4,32 +4,37 @@ import Tilt from "react-parallax-tilt";
 import { FaGithub, FaPlay } from "react-icons/fa";
 import note from "../assets/capture1.jpg";
 import news from "../assets/capture2.jpg";
-import cag from "../assets/cag.jpg";
+import shopease from "../assets/capture3.jpg";
 
 // All project data
 const allProjects = [
   {
-    title: "Note App",
-    description: "A MERN stack note-taking app with login, notes, and MongoDB storage.",
-    image: note,
-    videoLink: "https://www.loom.com/share/803da4999e444269af36009747abf17d?sid=002818d1-8834-4e2e-b301-9162a3ba8665",
-    codeLink: "https://github.com/abdulrehmanafzal-webdeveloper/Note-app",
+    title: "ShopEase – A Modern E-Commerce Platform (FastAPI + React)",
+    description:
+      "Built ShopEase, a responsive and feature-rich e-commerce web application with a FastAPI backend (Python) and a React frontend. The platform includes secure authentication, dynamic product management, shopping cart functionality, and optimized APIs for seamless performance. Designed with scalability, responsiveness, and user experience in mind, this project highlights full-stack development skills, API integration, and clean UI implementation.",
+    image: shopease,
+    videoLink:
+      "https://shopease-e-commerce-m34ijjxpj-ars-projects-9ef3b893.vercel.app/",
+    codeLink:
+      "https://github.com/abdulrehmanafzal-webdeveloper/Shopease-e-commerce",
   },
   {
     title: "News App",
     description: "A news app made using React, Tailwind and Bootstrap",
     image: news,
-    videoLink: "https://www.loom.com/share/9010d1a44f7c4b87b946e9224cb70aef?sid=8dd8c8a8-773f-420a-8c42-200741b3892c",
+    videoLink:
+      "https://www.loom.com/share/9010d1a44f7c4b87b946e9224cb70aef?sid=8dd8c8a8-773f-420a-8c42-200741b3892c",
     codeLink: "https://github.com/abdulrehmanafzal-webdeveloper/News-app",
   },
   {
-  title: "CAG API (FastAPI + AI)",
-  description: "A FastAPI-powered Conversational AI Gateway with endpoints to append, delete, query, and list AI-based user prompts. Includes UUID-based document storage and OpenAI integration for intelligent responses.",
-  image: cag, // replace this with your actual image import
-  videoLink: "https://www.loom.com/share/432c9ce894e0435eb1176306c2ded8de?sid=28e6d91a-8b73-4878-9886-168e52f95058", // replace with your actual Loom video
-  codeLink: "https://github.com/abdulrehmanafzal-webdeveloper/CAG-project", // adjust if repo URL is different
-}
-
+    title: "Note App",
+    description:
+      "A MERN stack note-taking app with login, notes, and MongoDB storage.",
+    image: note,
+    videoLink:
+      "https://www.loom.com/share/803da4999e444269af36009747abf17d?sid=002818d1-8834-4e2e-b301-9162a3ba8665",
+    codeLink: "https://github.com/abdulrehmanafzal-webdeveloper/Note-app",
+  },
 ];
 
 const Projects = () => {
@@ -65,8 +70,12 @@ const Projects = () => {
                 className="w-full h-48 object-cover"
               />
               <div className="p-5">
-                <h3 className="text-xl font-bold text-gray-800">{project.title}</h3>
-                <p className="text-gray-600 text-sm mt-2">{project.description}</p>
+                <h3 className="text-xl font-bold text-gray-800">
+                  {project.title}
+                </h3>
+                <p className="text-gray-600 text-sm mt-2">
+                  {project.description}
+                </p>
                 <div className="flex gap-4 mt-4">
                   {project.videoLink && (
                     <a
