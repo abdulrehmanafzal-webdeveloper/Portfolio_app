@@ -11,7 +11,7 @@ const allProjects = [
   {
     title: "ShopEase – A Modern E-Commerce Platform (FastAPI + React)",
     description:
-      "Built ShopEase, a responsive and feature-rich e-commerce web application with a FastAPI backend (Python) and a React frontend. The platform includes secure authentication, dynamic product management, shopping cart functionality, and optimized APIs for seamless performance. Designed with scalability, responsiveness, and user experience in mind, this project highlights full-stack development skills, API integration, and clean UI implementation.",
+      "Developed ShopEase, a full-stack e-commerce platform with FastAPI and React featuring secure authentication, product management, and a seamless shopping experience.",
     image: shopease,
     videoLink:
       "https://shopease-e-commerce-m34ijjxpj-ars-projects-9ef3b893.vercel.app/",
